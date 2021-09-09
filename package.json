@@ -1,0 +1,26 @@
+{
+  "name": "sample-wss-echo-backend",
+  "version": "1.0.0",
+  "description": "A sample backend with websocket secured echo endpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaliya96/Sample-wss-echo-backend.git"
+  },
+  "keywords": [
+    "secured-websocket",
+    "wss"
+  ],
+  "author": "Chalith Tharuka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaliya96/Sample-wss-echo-backend/issues"
+  },
+  "homepage": "https://github.com/chaliya96/Sample-wss-echo-backend#readme",
+  "dependencies": {
+    "ws": "^8.2.2"
+  }
+}
