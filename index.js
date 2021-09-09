@@ -4,8 +4,8 @@ const fs = require('fs');
 const WebSocket = require('ws');
 
 const server = https.createServer({
-  cert: fs.readFileSync('/Users/user/Desktop/netty/ws-backend/cert.pem'),
-  key: fs.readFileSync('/Users/user/Desktop/netty/ws-backend/key.pem')
+  cert: fs.readFileSync('./cert.pem'),
+  key: fs.readFileSync('./key.pem')
 });
 
 const wss = new WebSocket.Server({ server });
